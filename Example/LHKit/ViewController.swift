@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import LHKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        print("====>\(LHKit.rpx)")
+        //LHKit.LHKitVersionNumber
+        
     }
 
     override func didReceiveMemoryWarning() {
